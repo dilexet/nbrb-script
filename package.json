@@ -1,0 +1,28 @@
+{
+  "name": "rates-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/logic.js",
+  "scripts": {
+    "start:server": "node src/server.js",
+    "start:cli": "node src/cli.js",
+    "start:lambda": "sam local start-api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "chai": "4.3.7",
+    "mocha": "10.2.0"
+  }
+}
